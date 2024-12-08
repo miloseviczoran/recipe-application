@@ -149,3 +149,10 @@ i.fa-bookmark.fa-regular {
   margin-right: 1rem; // Add space to the right of the icon, if needed
   transition: all 0.3s ease; // Add smooth transition effect for hover, etc.
 }
+
+i.fa-solid.fa-bread-slice {
+  font-size: 2rem;
+  color: $color-primary;
+  margin-right: 1rem;
+  transition: all 1s ease;
+}
