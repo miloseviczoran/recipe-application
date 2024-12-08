@@ -82,8 +82,6 @@
     cursor: pointer;
     padding: 0 1.5rem;
     transition: all 0.3s;
-    margin-right: 5px;
-    margin-left: 4rem;
 
     display: flex;
     align-items: center;
@@ -92,7 +90,7 @@
       height: 2.4rem;
       width: 2.4rem;
       fill: $color-primary;
-      margin-right: 15px;
+      margin-right: 0.7rem;
       transform: translateY(-1px);
     }
 
