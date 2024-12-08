@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Zoran Milosevic",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.0",
+    "parcel": "^2.13.0",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.81.0"
+  }
+}
