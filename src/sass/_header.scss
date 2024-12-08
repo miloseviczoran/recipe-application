@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 5rem;
 
   &__logo {
     margin-left: 4rem;
@@ -142,4 +141,11 @@
     visibility: visible;
     opacity: 1;
   }
+}
+
+i.fa-bookmark.fa-regular {
+  font-size: 2rem; // Change the size of the icon
+  color: $color-primary; // Use your primary color (you can define it in your variables)
+  margin-right: 1rem; // Add space to the right of the icon, if needed
+  transition: all 0.3s ease; // Add smooth transition effect for hover, etc.
 }
